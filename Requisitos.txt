@@ -1,0 +1,46 @@
+
+-Nombre del instituto: UntrefSchool
+
+- Paleta de colores: #FC7300 , #1F8A70 , #00425A , #181823, #EFF5F5
+
+Tipografias: 
+
+https://fonts.google.com/specimen/Poppins ,
+https://fonts.google.com/specimen/Belanosima
+
+
+- Una barra de navegación que me redirija a cada sección del HTML y al formulario *
+- Las secciones obligatorias son:
+
+● Quienes somos
+● ¿Por qué elegirnos?
+● Propuesta educativa
+● Últimas noticias.
+
+El sitio debe adaptarse a una vista de tablet (768px) y una vista mobile (320px).
+(Recuerda que puedes mostrar u ocultar información, dependiendo cada pantalla).
+
+Debe incorporar SEO (title meta “description y author”, header, main, footer, nav)
+
+formulario de contacto:
+● formsubmit.co
+● mailthis.to
+
+Analizar bien los temas que deben integrarse cuando sumas los servicios de estos 
+formularios (agregar campos ocultos, validar el Email de registro, etc.)
+
+GITHUB, con el nombre PROYECTO-INTEGRADOR-WEB-UNTREFSCHOOL. Y GitHub-Pages.
+
+Utiliza recursos como unsplash.com para obtener imágenes de la temática propuesta.
+
+Trabaja las imágenes: no agregues imágenes .PNG. Utiliza formatos como JPG o WEBP, que son
+livianos. 
+
+Normaliza la información del proyecto en cuanto a nombre de archivos refiere.
+
+Utiliza flaticon.com para buscar un favicon y agregarlo a los archivos del proyecto. 
+
+No utilices archivos con extensión .ico para un favicon. 
+
+Elige archivos .png para los favicon dado que poseen soporte para transparencias, 
+  ideal para las pestañas de los navegadores web.
