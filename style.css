@@ -14,16 +14,31 @@
 
 /* Header   */
 
+header {
+  background-color:#00425A ;
+  border: #1F8A70 solid 1px;
+}
+
+
 header h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 3rem;
   font-weight: bold;
   color: #1F8A70;
+  background-color:#00425A ;
+  padding: 1rem;
 }
 
 
 
-/* Header   */
+
+/* Nav  */
+
+.navbar {
+  background-color: #00425A;
+  border: #1F8A70 solid 1px;
+
+}
 
 .nav-item a {
     font-family: 'Poppins', sans-serif;
@@ -33,13 +48,50 @@ header h1 {
 
 
 .nav-link:hover {
-  color:#00425A;
+  color:#FC7300;
   transition:  0.5s ease;
 
 }
 
 
 
+.contenedorFondo {
+ height: 700px;
+ background-image: url("./img/fondo.jpg") ;
+ background-repeat: no-repeat;
+ background-position: center center;
+ background-size:cover
+}
+
+/* Seccion Quienes Somos  */
+
+
+.contenedorSomosTexto {
+ background-color: #FC7300;
+ height: 400px;
+}
+
+.contenedorSomosImagen {
+  background-color: #00425A;
+  height: 400px;
+}
+
+.imagenSomos {
+  height: 350px;
+
+}
+
+.contenedorSomosTexto h3{
+  font-family: 'Belanosima', sans-serif;
+  font-size: 2.5rem;
+  color: #1F8A70;
+}
+
+.contenedorSomosTexto p {
+  font-family: 'Belanosima', sans-serif;
+  font-size: 1.5rem;
+  color: #1F8A70;
+}
 
 
 
