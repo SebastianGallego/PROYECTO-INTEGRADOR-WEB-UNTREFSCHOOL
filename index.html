@@ -46,13 +46,13 @@
                         <a class="nav-link " href="#">Quienes Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#proyectos">Por que elegirnos</a>
+                        <a class="nav-link" href="#">Por que elegirnos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#testimonios">Propuesta Educativa</a>
+                        <a class="nav-link" href="#">Propuesta Educativa</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contacto">Ultimas Noticias</a>
+                        <a class="nav-link" href="#">Ultimas Noticias</a>
                     </li>
                 </ul>
             </div>
@@ -68,18 +68,18 @@
 
     <!-- Main -->
     <section
-        class="contenedorFondo container-fluid d-flex justify-content-center align-items-center align-items-stretch mt-2 mb-2 ">
+        class="contenedorFondo container-fluid d-flex justify-content-center align-items-center align-items-stretch mt-2 mb-2">
         <img src=" /img/fondo.jpg" alt="" class="img-fluid ">
 
     </section>
-
+    <hr class="featurette-divider">
 
     <!-- Quienes Somos -->
     <section class="contenedorSomos d-flex container-fluid ">
         <div class="row  d-flex">
 
-            <div class="contenedorSomosImagen  col-md-4 ">
-                <img src="./img/clases.jpg" alt="Alumnos en clases" class="imagenSomos img-fluid rounded-4">
+            <div class="contenedorSomosImagen  col-md-4 container-fluid d-flex align-items-center">
+                <img src="./img/experiencia01.jpg" alt="Alumnos en clases" class="imagenSomos img-fluid rounded-4">
             </div>
 
             <div class="contenedorSomosTexto col-md-8 p-3">
@@ -95,7 +95,32 @@
                     significativo. Nuestras aulas están equipadas con tecnología de vanguardia, brindando a nuestros
                     estudiantes la oportunidad de familiarizarse con las herramientas y recursos digitales que les serán
                     útiles en el mundo actual.</p>
+            </div>
+        </div>
+    </section>
 
+    <hr class="featurette-divider">
+
+    <!-- ¿Por qué elegirnos? -->
+    <section class="contenedorElegirnos d-flex container-fluid ">
+        <div class="row  d-flex">
+            <div class="contenedorSomosTexto col-md-8 p-3">
+                <h3>¿Por que elegirnos? </h3>
+                <p> Somos un instituto donde la educación se combina con la excelencia y la innovación. Con
+                    más de 10
+                    años de experiencia en
+                    la formación de los futuros líderes, nos enorgullece ofrecer un entorno educativo estimulante y de
+                    calidad para nuestros estudiantes.
+
+                    En UntrefSchool creemos que el ambiente en el que los niños
+                    aprenden juega un papel fundamental en su desarrollo. Por eso, contamos con instalaciones modernas y
+                    espacios diseñados especialmente para fomentar la creatividad, la exploración y el aprendizaje
+                    significativo. Nuestras aulas están equipadas con tecnología de vanguardia, brindando a nuestros
+                    estudiantes la oportunidad de familiarizarse con las herramientas y recursos digitales que les serán
+                    útiles en el mundo actual.</p>
+            </div>
+            <div class="contenedorSomosImagen  col-md-4 container-fluid d-flex align-items-center">
+                <img src="./img/experiencia02.jpg" alt="Alumnos en clases" class="imagenSomos img-fluid rounded-4">
             </div>
 
 
@@ -104,25 +129,87 @@
 
 
 
-    <!-- ¿Por qué elegirnos? -->
-    <section class="contenedorElegirnos">
-
-    </section>
 
 
 
 
     <!-- Propuesta educativa -->
-    <section class="propuesta">
+    <section class="contenedorPropuesta d-flex container-fluid">
 
 
     </section>
 
-
+    <hr class="featurette-divider">
 
 
     <!-- Últimas noticias  -->
-    <section class="Noticias">
+
+
+    <section class="noticias d-flex flex-column align-items-center ">
+        <h2 class="noticiasTitulo">Ultimas Noticias</h2>
+
+
+        <!-- Carrusel -->
+        <div id="noticiasCarrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-inner ">
+                <div class="carousel-item active">
+                    <div class="container ">
+                        <img class="noticiasImagen rounded-circle" src="./img/carrusel01.jpg" alt="Foto de Gino">
+                        <p class="noticiasTexto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel
+                            iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a
+                            placerat.</p>
+                        <div class="noticasInfo">
+                            <p class="noticia">Gino</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <img class="noticiasImagen rounded-circle" src="./img/carrusel02.jpg" alt="Foto de Nora">
+                        <p class="noticiasTexto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel
+                            iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a
+                            placerat.</p>
+                        <div class="noticasInfo">
+                            <p class="noticia">Nora</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <img class="noticiasImagen rounded-circle" src="./img/carrusel03.jpg" alt="Foto de Leonardo">
+                        <p class="noticiasTexto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel
+                            iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a
+                            placerat.</p>
+                        <div class="noticasInfo">
+                            <p class="noticia">Leonardo</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <img class="noticiasImagen rounded-circle" src="./img/carrusel05.jpg" alt="Foto de Leonardo">
+                        <p class="noticiasTexto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel
+                            iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a
+                            placerat.</p>
+                        <div class="noticasInfo">
+                            <p class="noticia">Leonardo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#noticiasCarrusel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#noticiasCarrusel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </section>
+
+
+
 
     </section>
 
