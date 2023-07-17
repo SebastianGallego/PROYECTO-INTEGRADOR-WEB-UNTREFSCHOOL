@@ -12,40 +12,35 @@
 
 */ 
 
-/* Header   */
-
-header {
-  background-color:#00425A ;
-  border: #1F8A70 solid 1px;
-}
+/* Estilos Generales   */
 
 
-header h1 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 3rem;
-  font-weight: bold;
-  color: #1F8A70;
-  background-color:#00425A ;
-  padding: 1rem;
+
+body {
+  background-color: #EFF5F5; 
+
 }
 
 
 
+/* Estilos Nav   */
 
-/* Nav  */
+.navbar-brand img {
+  height: 100px;
+
+}
 
 .navbar {
-  background-color: #00425A;
-  border: #1F8A70 solid 1px;
+ background-color: #00425A;
+ 
 
 }
 
 .nav-item a {
     font-family: 'Poppins', sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #1F8A70;
 }
-
 
 .nav-link:hover {
   color:#FC7300;
@@ -54,43 +49,38 @@ header h1 {
 }
 
 
+/* Estilo Main Fondo  */
 
 .contenedorFondo {
- height: 700px;
- background-image: url("./img/fondo.jpg") ;
- background-repeat: no-repeat;
- background-position: center center;
- background-size:cover
+  background-color: #EFF5F5; 
 }
 
-/* Seccion Quienes Somos  */
 
+
+/* Estilo Seccion Quienes Somos  */
 
 .contenedorSomosTexto {
- background-color: #FC7300;
- height: 400px;
+ background-color: #EFF5F5;
+ 
 }
 
 .contenedorSomosImagen {
-  background-color: #00425A;
-  height: 400px;
+
+  
 }
 
-.imagenSomos {
-  height: 350px;
 
-}
 
 .contenedorSomosTexto h3{
   font-family: 'Belanosima', sans-serif;
   font-size: 2.5rem;
-  color: #1F8A70;
+  color: #00425A;
 }
 
 .contenedorSomosTexto p {
   font-family: 'Belanosima', sans-serif;
   font-size: 1.5rem;
-  color: #1F8A70;
+  color: #00425A;
 }
 
 
@@ -104,8 +94,8 @@ header h1 {
 /* Responsive */
 
   
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 740px) {
   .navbar-brand {
-    display: none;
-  }
+  display: none;
+  } 
 }
