@@ -119,13 +119,13 @@ body {
 .noticiasTexto {
   max-width: 70%;
   font-size: 1.2rem;
+  font-weight: bold;
   text-align: center;
   font-family: 'Belanosima', sans-serif;
   color: #00425A;
 }
 
 .noticasInfo {
-  font-weight: bold;
   text-align: center;
   color: #00425A;
 
