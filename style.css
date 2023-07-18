@@ -85,6 +85,24 @@ hr {
   color: #00425A;
 }
 
+
+
+/* Propuesta Educativa */
+
+.card {
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #00425A;
+  
+}
+
+.card-img-top {
+  padding: 10px;
+  border-radius: 20px;
+  
+
+}
+
 /* Noticias Carrusel */ 
 
 
@@ -151,7 +169,7 @@ hr {
 /* footer */
 
 footer {
-  min-height: 400px;
+  min-height: 350px;
   background-color: #FC7300;
 }
 
@@ -163,7 +181,7 @@ footer {
 .footer-texto {
   font-size: 1.5rem;
   padding: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   font-family: 'Poppins', sans-serif;
   color: #EFF5F5;
 }
@@ -199,9 +217,9 @@ footer {
 .derechos-de-autor {
   font-size: 15px;
   color: #EFF5F5;
-  padding: 20px;
+  padding: 10px;
 
-
+}
 
 /* Responsive */
 
