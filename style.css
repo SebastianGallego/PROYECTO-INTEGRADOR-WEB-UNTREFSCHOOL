@@ -3,15 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,600;1,500&family=Belanosima&family=Poppins:ital,wght@1,100&display=swap');
 
 *{
-
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
   
-  
   font-family: 'Belanosima', sans-serif;
   font-family: 'Poppins', sans-serif;
-
 }
 
 
@@ -43,12 +40,13 @@ hr {
 
 .header {
   color: var(--naranja);
-  font-size: 27px;
+  font-size: 30px;
   padding: 10px;
+  font-family: 'Belanosima', sans-serif;
 }
 
 .bigicon {
-  font-size: 35px;
+  font-size: 32px;
   color: var(--naranja);
 }
 
