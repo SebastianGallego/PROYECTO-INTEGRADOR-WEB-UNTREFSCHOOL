@@ -1,29 +1,56 @@
-/* 
-   Fuentes: 
-   font-family: 'Poppins', sans-serif;
-   font-family: 'Belanosima', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,600;1,500&family=Poppins:ital,wght@1,100&display=swap');
 
-  Paleta de colores: 
-  #FC7300 Naranja
-  #1F8A70 Verde Pastel
-  #00425A Azul Francia 
-  #181823 Negro 
-  #EFF5F5 Blanco
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,600;1,500&family=Belanosima&family=Poppins:ital,wght@1,100&display=swap');
 
-*/ 
+*{
+
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  
+  
+  font-family: 'Belanosima', sans-serif;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+/*  Paleta de colores:  */
+
+:root {
+  --naranja: #FC7300;
+  --verde: #1F8A70;
+  --azul: #00425A;
+  --negro: #181823;
+  --blanco: #EFF5F5;
+}
+
+
+
 
 /* Estilos Generales   */
 
-
-
 body {
-  background-color: #EFF5F5; 
+  background-color: var(--blanco); 
 }
 
 hr {
-  color:#FC7300;
-  border: 2px solid #FC7300 ;
+  color: var(--naranja);
+  border: 2px solid ;
 } 
+
+
+.header {
+  color: var(--naranja);
+  font-size: 27px;
+  padding: 10px;
+}
+
+.bigicon {
+  font-size: 35px;
+  color: var(--naranja);
+}
 
 /* Estilos Nav   */
 
@@ -32,17 +59,18 @@ hr {
 }
 
 .navbar {
- background-color: #00425A;
+ background-color: var(--azul);
 }
 
 .nav-item a {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.2rem;
-    color: #1F8A70;
+    font-size: 1.3rem;
+    font-weight:bold;
+    color: var(--verde);
 }
 
 .nav-link:hover {
-  color:#FC7300;
+  color: var(--naranja);
   transition:  0.5s ease;
 }
 
@@ -50,7 +78,7 @@ hr {
 /* Estilo Main Fondo  */
 
 .contenedorFondo {
-  background-color: #EFF5F5; 
+  background-color: var(--blanco); 
   
 }
 
@@ -59,7 +87,7 @@ hr {
 /* Estilo Seccion Quienes Somos  */
 
 .contenedorSomosTexto {
- background-color: #EFF5F5;
+ background-color: var(--blanco);
  
 }
 
@@ -76,13 +104,13 @@ hr {
 .contenedorSomosTexto h3{
   font-family: 'Belanosima', sans-serif;
   font-size: 1.5rem;
-  color: #00425A;
+  color: var(--azul);
 }
 
 .contenedorSomosTexto p {
   font-family: 'Belanosima', sans-serif;
   font-size: 1rem;
-  color: #00425A;
+  color: var(--azul);
 }
 
 
@@ -92,7 +120,7 @@ hr {
 .card {
   margin: 10px;
   border-radius: 10px;
-  background-color: #00425A;
+  background-color: var(--azul);
   
 }
 
@@ -110,7 +138,7 @@ hr {
   font-family: 'Belanosima', sans-serif;
   font-size: 2rem;
   font-weight: bold;
-  color: #00425A;
+  color: var(--azul);
 }
 
 .noticias .carousel {
@@ -143,25 +171,25 @@ hr {
   font-weight: bold;
   text-align: center;
   font-family: 'Belanosima', sans-serif;
-  color: #00425A;
+  color: var(--azul);
 }
 
 .noticasInfo {
   text-align: center;
-  color: #00425A;
+  color: var(--azul);
 
 }
 
 .noticasInfo p {
   margin-bottom: 0;
   font-family: 'Belanosima', sans-serif;
-  color: #00425A;
+  color: var(--azul);
 }
 
 .noticiasInfo {
   font-weight: bold;
   text-align: center;
-  color: #00425A;
+  color: var(--azul);
 }
 
 
@@ -170,7 +198,7 @@ hr {
 
 footer {
   min-height: 350px;
-  background-color: #FC7300;
+  background-color: var(--naranja);
 }
 
 
@@ -178,15 +206,15 @@ footer {
   height: 120px;
 }
 
-.footer-texto {
+.footerTexto {
   font-size: 1.5rem;
   padding: 10px;
   margin-bottom: 10px;
   font-family: 'Poppins', sans-serif;
-  color: #EFF5F5;
+  color: var(--blanco);
 }
 
-.iconos-redes-sociales a {
+.iconosRedesSociales a {
   width: 50px;
   height: 50px;
   display: flex;
@@ -194,29 +222,29 @@ footer {
   justify-content: center;
   padding: 2px;
   margin: 10px;
-  border: 2px solid #EFF5F5;
+  border: 2px solid var(--blanco);
   border-radius: 50%;
   transition: all 0.2s ease-in;
 }
 
-.iconos-redes-sociales i {
-  color: #EFF5F5;
+.iconosRedesSociales i {
+  color: var(--blanco);
   font-size: 1.5rem;
   transition: all 0.2s ease-in;
 }
 
-.iconos-redes-sociales a:hover {
-  background-color: #EFF5F5;
-  border: 2px solid #EFF5F5;
+.iconosRedesSociales a:hover {
+  background-color: var(--blanco);
+  border: 2px solid var(--blanco);
 }
 
-.iconos-redes-sociales a:hover i {
+.iconosRedesSociales a:hover i {
   color: black;
 }
 
-.derechos-de-autor {
+.derechosAutor {
   font-size: 15px;
-  color: #EFF5F5;
+  color: var(--blanco);
   padding: 10px;
 
 }
@@ -224,7 +252,7 @@ footer {
 /* Responsive */
 
   
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 767px) {
   .navbar-brand {
   display: none;
   } 
