@@ -201,21 +201,21 @@ footer {
 
 
 .footerLogo {
-  height: 120px;
-  width: 300px;
+  height: 90px;
+  width: 250px;
 }
 
 .footerTexto {
   font-size: 1.5rem;
   padding: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   font-family: 'Poppins', sans-serif;
   color: var(--blanco);
 }
 
 .iconosRedesSociales a {
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -241,10 +241,40 @@ footer {
   color: black;
 }
 
-.derechosAutor {
-  font-size: 15px;
+.footerRight a {
+
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid var(--blanco);
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.footerRight i {
   color: var(--blanco);
-  padding: 10px;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.footerRight a:hover {
+  background-color: var(--blanco);
+  border: 2px solid var(--blanco);
+}
+
+.footerRight a:hover i {
+  color: black;
+}
+
+
+.derechosAutor {
+  font-size: 18px;
+  color: var(--blanco);
+  padding: 6px;
 
 }
 
