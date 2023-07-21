@@ -119,14 +119,25 @@ hr {
   margin: 10px;
   border-radius: 10px;
   background-color: var(--azul);
-  
-}
+  }
 
 .card-img-top {
   padding: 10px;
   border-radius: 20px;
-  
+}
 
+.propuestaSubtitulo {
+  font-family: 'Belanosima', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--blanco);
+}
+
+
+.propuestaTexto {
+  font-family: 'Belanosima', sans-serif;
+  font-size: 0.9rem;
+  color: var(--blanco);
 }
 
 /* Noticias Carrusel */ 
